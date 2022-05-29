@@ -1,6 +1,6 @@
 from asyncio.windows_events import NULL
 from operator import contains
-#Based on CPRG-104 Assignment1 Complete
+#Based upon CPRG-104 Assignment1 Complete
 #Python class Zoo with Hierarchy examples
 
 class Animal:
