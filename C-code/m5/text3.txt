@@ -1,0 +1,8 @@
+a.out
+filea.c
+fileb.c
+input.c
+inputcmdline.c
+mainarg.c
+text2.txt
+text3.txt
