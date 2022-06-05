@@ -1,1 +1,1 @@
-Some basic Python programs for reference and education
+Some Python programs for reference and education
