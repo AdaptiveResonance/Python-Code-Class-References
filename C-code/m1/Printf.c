@@ -6,3 +6,9 @@ int main ()
 	printf("* * * * *\n\t* *  *  *\n\t*       *\n\t* * * * *");
 	return 0;
 }
+#%d is for an int
+#%ld is for a long
+#%hd is for a short
+#%u is for an unsigned int
+#%lu is for an unsigned long
+#%hu is for an unsigned short
