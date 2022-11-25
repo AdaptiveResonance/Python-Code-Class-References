@@ -1,7 +1,8 @@
 from asyncio.windows_events import NULL
 from operator import contains
-#Based upon CPRG-104 Assignment1 Complete
-#Python class Zoo with Hierarchy examples
+#helpful link:https://funtech.co.uk/latest/explain-object-oriented-programming-to-kids
+#Based upon CPRG-104 A1
+#Python Zoo class with Hierarchy + Inheritence
 
 class Animal:
     def __init__(self):

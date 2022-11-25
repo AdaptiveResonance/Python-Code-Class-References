@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+#helpful link: https://funtech.co.uk/latest/explain-object-oriented-programming-to-kids
+"""Dog class will inherit from Animal class to provide Tom the Dog actions"""
 class animal:
     def __init__(self, name):
         self.name = name
@@ -23,6 +25,6 @@ tom.walk()
 tom.run()
 tom.bark()
 
-print(isinstance(tom, dog))
-print(isinstance(tom, animal))
-print(issubclass(dog, animal))
+print(isinstance(tom, dog)) #True
+print(isinstance(tom, animal)) #True
+print(issubclass(dog, animal)) #True

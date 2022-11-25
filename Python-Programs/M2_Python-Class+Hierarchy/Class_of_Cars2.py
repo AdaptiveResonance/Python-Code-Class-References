@@ -11,7 +11,7 @@ class Car:
     def get_model(self):
         """Returns the car model"""
         return self.__model
-
+    
     def get_year(self):
         """Returns the car year"""
         return self.__year
@@ -26,7 +26,7 @@ class PersonalCar(Car):
 
     def __init__(self, color, make, model, year, number_seats, number_doors):
         # Car.__init__(self, color, model, year)
-        super().__init__(color, model, year)
+        super().__init__(color, model, year)#can initialize from parent by calling child
         self.number_seats = number_seats
         self.number_doors = number_doors
         self.body_type = "Full size"
@@ -37,11 +37,10 @@ class PersonalCar(Car):
         # Mazda, 2010, blue color, Full size, 4 doors, 5 seats
         return "{}, {}, {}, {} color, {}, {} doors, {} seats".format(
             self._make, self.get_model(), self.get_year(), self.color,
-            self.body_type, self.number_doors, self.number_seats
-        )
+            self.body_type, self.number_doors, self.number_seats)
 
     def get_model(self):    # Overrides the parent method
-        return self.get_make() + ", " + super().get_model()  # calles the parent's method
+        return self.get_make() + ", " + super().get_model()  # calls the parent's get_model method, supseding the local one
 
 
 car1 = Car("Blue", "Mazda", 2010)
