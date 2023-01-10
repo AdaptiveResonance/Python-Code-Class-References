@@ -19,7 +19,7 @@ print('Got connection from', client_addr)
 
 #print message from client
 message = client.recv(1024)
-print(message.decode('utf-8')
+print(message.decode('utf-8'))
 
 # send a thank you message to the client.
 client.send('Hello, Im your server, Thank you for connecting'.encode('utf-8'))
