@@ -3,7 +3,7 @@ class Car:
     """Define my car class"""
 
     def __init__(self, color, model, year):
-        self.color = color
+        self.color = color      # Public
         self.__model = model    # private
         self.__year = year      # private
         self._make = "Unknown"  # protected
@@ -48,7 +48,7 @@ car1 = Car("Blue", "Mazda", 2010)
 print(car1.get_model() + ", " + str(car1.get_year()) +
       " with " + car1.color + " color")
 # print(car1.__year)  # will give an error as the year is a private attribute
-car2 = PersonalCar("Gray", "Ford", "Impala", 2020, 7, 5)
+car2 = PersonalCar("Gray", "Ford", "Impala", 2020, 7, 4)
 print(car2.get_info())
 print(car2.get_model(), car2.color)
 
