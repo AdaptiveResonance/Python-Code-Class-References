@@ -1,4 +1,4 @@
-myDiction = {"bacon" : 4, "lettuce": 1, "tomatos" : 2}
+myDiction = {"bacon" : 4, "lettuce": 1, "tomatoes" : 2}
 print(myDiction)
 # print lettuce value using key "lettuce"
 print(myDiction["lettuce"])
