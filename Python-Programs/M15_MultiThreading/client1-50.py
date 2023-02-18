@@ -15,7 +15,7 @@ soc.connect((IP,PORT))
 soc.send('Hello I am your client'.encode('utf-8'))
 for i in range(50):
 #while True:
-    message = soc.recv(28)#Receive 28 bytes, so the server's lines don't overlap
+    message = soc.recv(28)#Recieve 28 bytes, so the server's lines don't overlap
     print(message.decode('utf-8'))
 
 # Close the connection
