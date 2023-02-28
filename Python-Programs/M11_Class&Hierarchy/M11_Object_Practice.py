@@ -12,7 +12,7 @@ class Person:
     def get_name(self):
         return self.__name
 
-    @final
+    @final#make inmutable and cannot override in subclass
     def get_age(self):
         return self.__age
 
