@@ -47,5 +47,5 @@ class Employee(Person):
         return super().get_name() + ", " + self.get_designation()
 
 
-employee = Employee("Tom", 25, "Male", "25-June-1996", "BMO", 7000, "developer")
+employee = Employee("Tom", 25, "X", "25-June-1996", "BMO", 7000, "developer")
 print(employee.get_name())

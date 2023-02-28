@@ -45,10 +45,10 @@ class Tiger(Feline):
         return super().get_characteristic() + "\n" + self.__characteristic
 
 
-class WildCat(Feline):
+class BobCat(Feline):
     def __init__(self):
         Feline.__init__(self)
-        self.__characteristic = "Wild cats can climb trees"
+        self.__characteristic = "BobCats can climb trees"
 
     def get_characteristic(self):
         return super().get_characteristic() + "\n" + self.__characteristic
@@ -109,13 +109,13 @@ class Zoo:
         #checks if Eagle is instance of Bird, whereas below 3 will not allow
             if len(self.__bird_list) < 1:
                 self.__bird_list.append(living_thing)
-                print("Bird Added")
+                print("Bird has been Added")
             else:
                 print("Zoo full for birds")
         else: #living_thing is Animal
             if len(self.__animal_list) < 2:
                 self.__animal_list.append(living_thing)#Add living_thing to the animal_list
-                print("Animal Added")
+                print("Animal has been Added")
             else:
                 print("Zoo full for animals")
 
@@ -129,10 +129,9 @@ class Zoo:
             print(bird.look())
             print("")
 
-
 zoo = Zoo()
-zoo.add(Tiger())#input Tiger Object
+zoo.add(Tiger())#input/add Tiger Object
 zoo.add(Wolf())
-zoo.add(WildCat())
+zoo.add(BobCat())
 zoo.add(Eagle())
 zoo.looking()
