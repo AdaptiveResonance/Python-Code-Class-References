@@ -1,4 +1,5 @@
 myString = "5" #strings numbers are seen as character rather than a number
+MyInt = 5
 myFloat = 3.14159265358979 #floats can support decimals!
 # All integers are long in python
 # So we can convert myString to long integer
@@ -11,4 +12,3 @@ print(myLong)
 # 5
 # 3.14159265358979
 # 5
-
