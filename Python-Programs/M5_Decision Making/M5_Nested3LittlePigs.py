@@ -20,7 +20,7 @@ elif (houseType == '3'):
     elif (naivety == 'n'):
         print("The wolf remains outside.")
     else:
-        print("Invalid input.")
+        print("The Wolf continues to wait.")
 else:
     print("Invalid input.")
 

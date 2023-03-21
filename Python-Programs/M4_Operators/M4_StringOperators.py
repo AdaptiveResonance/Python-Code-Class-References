@@ -3,6 +3,6 @@ h = "Hello"
 t = " there"
 print(h + t)
 print(h*3)
-print(h/t)
+print(h/t)#unsupported division by strings
 
 

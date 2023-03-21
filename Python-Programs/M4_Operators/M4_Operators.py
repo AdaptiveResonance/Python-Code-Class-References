@@ -16,7 +16,7 @@ x = 2
 y = 3
 z = x**y #exponent
 print("Line 6 - Value of z is ", z)
-x = 10
+x = 11
 y = 5
 z = x//y #remember floor division
 print("Line 7 - Value of z is ", z)

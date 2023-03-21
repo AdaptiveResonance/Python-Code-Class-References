@@ -1,4 +1,4 @@
-# Python is not considered "hard typed"
+# Python is not considered "hard typed/casted"
 
 variable = 5
 print(type(variable))
