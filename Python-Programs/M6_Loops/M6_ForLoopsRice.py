@@ -4,5 +4,3 @@ for contents in riceBag:
     print(contents)
 
 
-
-
