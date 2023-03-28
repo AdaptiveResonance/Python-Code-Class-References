@@ -10,4 +10,6 @@ studentById = {42557:"Huckleberry",
 
 # When we provide the key, we get the value
 print("Student Name: "+ studentById[42559])
+studentById[42561]="Furball"
+print("Student Name: "+ studentById[42561])
 
