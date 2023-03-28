@@ -6,7 +6,8 @@
 studentById = {42557:"Huckleberry",
                42558:"Dorian",
                42559:"Esmeralda",
-               42560:"Winifred"}
+               42560:"Winfred"}
 
 # When we provide the key, we get the value
 print("Student Name: "+ studentById[42559])
+

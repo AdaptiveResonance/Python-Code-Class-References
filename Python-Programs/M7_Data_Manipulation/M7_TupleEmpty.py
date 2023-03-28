@@ -2,10 +2,11 @@
 myEmptyTuple = ()
 print(type(myEmptyTuple))
 
-# Also be careful about this (It's a sring?)
+# Also be careful about this (It's a string?)
 bettaFishNames = ('Lancelot')
 print(type(bettaFishNames))
 
 # To make it a tuple, you require a trailing comma
 bettaFishNames = ('Lancelot',)
 print(type(bettaFishNames))
+

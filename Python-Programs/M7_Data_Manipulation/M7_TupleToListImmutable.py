@@ -11,6 +11,8 @@ print(type(myList))
 myList[1] = 32
 print(myList)
 
+myList2 = list(myTuple)# call also reverse to make mutable
+
 # Immutable Tuples may NOT change their elements
 print(type(myTuple))
 myTuple[1] = 64 #will crash here as Tuple is immutable
