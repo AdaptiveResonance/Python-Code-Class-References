@@ -20,5 +20,3 @@ print(listB)
 listA[2] = "cake"
 print(listB)
 
-
-
