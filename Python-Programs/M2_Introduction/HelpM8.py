@@ -2,6 +2,6 @@
 
 import string
 
-print(help(string))
+print(help(print))
 
 

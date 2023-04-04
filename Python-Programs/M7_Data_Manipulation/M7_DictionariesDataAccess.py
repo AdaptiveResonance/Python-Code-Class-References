@@ -1,6 +1,6 @@
 # Dictionaries
 
-pizzaToppings = {1: "Cheese", 2: "Pepperoni", 3: "Pinapple", 4: "Ham"}
+pizzaToppings = {1: "Cheese", 2: "Pepperoni", 3: "Pineapple", 4: "Ham"}
 
 print(pizzaToppings)
 print(pizzaToppings.keys)
