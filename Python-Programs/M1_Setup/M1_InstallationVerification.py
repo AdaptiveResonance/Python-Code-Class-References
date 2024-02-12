@@ -1,3 +1,4 @@
+#verifies python installation and data analysis libraries
 # scipy
 import scipy
 print('scipy: %s' % scipy.__version__)
@@ -16,3 +17,4 @@ print('statsmodels: %s' % statsmodels.__version__)
 # scikit-learn
 import sklearn
 print('sklearn: %s' % sklearn.__version__)
+

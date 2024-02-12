@@ -4,4 +4,5 @@
 num = 1
 name = "Ezmerelda"
 
-solution = num + name
+solution = num + name #no unless we make num a character
+

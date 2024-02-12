@@ -11,3 +11,4 @@ elif tempC == 21:
     print(name, "it is perfect outside")
 elif tempC < 21:
     print(name, "it is cool outside")
+
