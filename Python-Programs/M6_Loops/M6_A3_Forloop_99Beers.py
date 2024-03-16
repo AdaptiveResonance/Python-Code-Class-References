@@ -12,13 +12,13 @@ String5="bottles of beer on the wall!"
 String5A="bottle of beer on the wall!"
 String5B="No more bottles of beer on the wall!"
 for i in range(99, 0, -1):#first arg is inclusive but not second one so will reach 1. 
-    if i == 1:#one bear
+    if i == 1:#one beer
         print(i,String1A)
         print(i,String2A)
         print(String3A)
         print(String4)
         print(String5B)
-    else:#every bear
+    else:#every beer
         print(i,String1)
         print(i,String2)
         print(String3)
