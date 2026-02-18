@@ -10,5 +10,5 @@ print("Dictionary values are not ordered but stored/indexed in Key:Value pairs")
 print("while lists are ordered and indexed by their integer indice")
 # Both lists and dictionaries have changeable data values
 # Dictionary values are not ordered but stored/indexed in Key:Value pairs
-# While lists are ordered and indexed by their integer indice
+# While lists are ordered and indexed by their integer indice 
 
