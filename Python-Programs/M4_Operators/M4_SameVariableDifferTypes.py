@@ -8,3 +8,9 @@ print(type(variable))
 
 variable = "Winnifred"
 print(type(variable))
+
+test = ["Hello", 5, 5]
+test[1] = 6
+print(type(test))
+print(test)
+

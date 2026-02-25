@@ -2,6 +2,6 @@
 
 import string
 
-print(help(print))
+#print(help(print))
 #help(object)
 print(help('math'))

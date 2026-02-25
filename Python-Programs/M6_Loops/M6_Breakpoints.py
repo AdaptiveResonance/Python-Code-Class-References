@@ -9,12 +9,14 @@ for letter in test_word:
 
     print(" We are processing " + letter + " now.")
     print(" We are in iteration number " + str(iteration) + ".")
+    print(type(letter))
     iteration = iteration + 1
 
     pause = input("This a breakpoint, enter to continue: ")
     
     if letter in vowel:
         print(letter, " is a vowel")
+        break
     else:
         print(letter, " is not a vowel")
 

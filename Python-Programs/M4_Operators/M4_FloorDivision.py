@@ -5,5 +5,6 @@ y = 8
 z = x / y
 w = x // y
 print("Babylonian pi esimate: " + str(float(z)))
-print("Floor division: " + str(float(w)))
+print("Floor division: " + str(float(w)))   #opposite of modulus
+print("Basic division: " + str(int(z))) 
 
