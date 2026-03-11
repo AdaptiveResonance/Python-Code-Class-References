@@ -1,6 +1,8 @@
 # **kwargs
 
 def setupDict(**kwargs):
+    print(kwargs)
+    print(*kwargs)
     result = ""
     result = kwargs
     return result
