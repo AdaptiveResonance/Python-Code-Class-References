@@ -4,6 +4,11 @@ import random
 
 x = random.random()
 y = random.randint(1,100)
+D6 = random.randint(1,6)
+D8 = random.randint(1,8)
+D10 = random.randint(1,10)
+D20 = random.randint(1,20)
+D100 = random.randint(1,100)
 z = random.randrange(1,100,2)
 u = random.choice([10,12,15,18])
 
