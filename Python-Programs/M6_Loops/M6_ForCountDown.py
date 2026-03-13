@@ -1,3 +1,5 @@
+
+monkeys = 0
 for monkeys in range(1, 6):
     monkeys = 6 - monkeys
     m = str(monkeys)

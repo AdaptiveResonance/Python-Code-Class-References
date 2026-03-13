@@ -1,5 +1,7 @@
 # function example with argument
 
+
+
 def student(firstName,lastName,idNumber):
     return idNumber + " - " + firstName + " " + lastName
 
@@ -12,7 +14,7 @@ def classroom(classId,computers = True,classSize = 5):
             return "Course will be offered with computers!"
         else:
             return "Course will be offered."
-
+        
 print(student("Justin", "Pilon", "000554433"))
 print(classroom(123456789, classSize = 25))
 print(classroom(123456789, classSize = 1))

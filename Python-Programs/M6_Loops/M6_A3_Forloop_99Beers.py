@@ -5,12 +5,15 @@ String1="bottles of beer on the wall,"
 String1A="bottle of beer on the wall,"
 String2="bottles of beer!"
 String2A="bottle of beer!"
+
 String3="Take one down,"
 String3A="Take it down,"
 String4="Pass it around,"
+
 String5="bottles of beer on the wall!"
 String5A="bottle of beer on the wall!"
 String5B="No more bottles of beer on the wall!"
+
 for i in range(99, 0, -1):#first arg is inclusive but not second one so will reach 1. 
     if i == 1:#one beer
         print(i,String1A)

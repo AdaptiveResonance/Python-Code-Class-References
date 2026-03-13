@@ -1,9 +1,10 @@
 # global
-globalVar = 1
+#to do cleanup terms
+globalVar = 1   #implicit global value
 
 def myFunction():
     print("(inside function) globalVar = ", globalVar)
-    global innerVar
+    global innerVar #explicit global value
     innerVar = 3
     print("(inside function) innerVar = ", innerVar)
     localVar = 2
@@ -12,11 +13,11 @@ def myFunction():
     
     return (ReVar)
     
-
+globalVar = 2
 backVar=myFunction()
 
 print("")
 print("(outside function) globalVar = ", globalVar)
-print("(outside function) localVar = ", backVar)
+print("(outside function) localVar = ", backVar) # was returned
 print("(outside function) innerVar = ", innerVar) #innerVar was made global
 print("(outside function) localVar = ", localVar) #cannot access! As it is local to function

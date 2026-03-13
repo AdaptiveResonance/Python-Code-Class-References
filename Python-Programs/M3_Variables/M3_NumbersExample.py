@@ -7,6 +7,7 @@ myLong = int(myString)
 # Now myLong is both an integers and a long
 print(myString)
 print(myFloat)
+print(MyInt)
 print(myLong)
 
 # 5
