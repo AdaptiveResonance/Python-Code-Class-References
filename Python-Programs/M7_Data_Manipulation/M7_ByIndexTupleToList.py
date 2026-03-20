@@ -9,9 +9,11 @@ print(myList[3])
 print(myList[-1])
 
 myTuple = ("Golden ratio", 1.61803)
-print(type(myTuple))
-myNewList = list(myTuple)
+print(type(myTuple))# immutable
+myNewList = list(myTuple)# now mutable
 print(type(myNewList))
+myNewList[0]='New Ratio'
+print(myNewList[0])
 
 
 

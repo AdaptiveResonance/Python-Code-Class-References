@@ -1,7 +1,9 @@
 #Based upon A4 CPRG-100
 #Basic pizza toppings and bill calculator
 #Hey computer make me a pizza
-print("Welcome to Python Pizza!!")
+
+
+print("Welcome to Python Pizza Maker!!")
 name = input("What is your last name for the order? ")
 toppings=("Cheese", "Pineapple", "Pepperoni", "Ham", "Everything", "Done")
 count = choice = 0 #assigning mutable objects such like list/dict instead of immutable objects; int, float, or str, will assign same object to all variables!!
@@ -41,3 +43,4 @@ else:#includes 4+ or everything toppings
 print("Pizza with {}".format((str(urpizza))[1:-1]), "at {}{:.2f}".format('$', float(cost)), "for", name)
 #[1:-1] helps to omit the first char '[ and ]' from the list when printing whole list, for a clean output
 #check https://blog.finxter.com/how-to-print-a-list-without-brackets-in-python/
+

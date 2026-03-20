@@ -8,9 +8,9 @@ myList = ["cat", "yarn", "dog", "cat", "bottle", "cat", "cat", "fork"]
 myList.remove("cat")#removes first one
 determine = "cat" in myList
 
-if (not determine):#double negative
+if (not determine):#if Not True
     print("No cats in myList")
-else:#not True is false
+else:#not True is false = True
     print("At least one cat remains in myList")
 
 # We can also remove elements using del
