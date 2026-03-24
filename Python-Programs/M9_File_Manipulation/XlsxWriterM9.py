@@ -1,9 +1,14 @@
-# win install
+# win install method
+#python.exe -m pip install --upgrade pip
 # pip install --user XlsxWriter
 
+import os
 import xlsxwriter
 # create workbook
-outWorkbook = xlsxwriter.Workbook("grades.xlsx")
+script_dir = os.path.dirname(os.path.abspath(__file__))  #Current Script Directory
+file_path = os.path.join(script_dir, "grades.xlsx")
+print(file_path)
+outWorkbook = xlsxwriter.Workbook(file_path)
 outSheet = outWorkbook.add_worksheet()
 
 # column titles
