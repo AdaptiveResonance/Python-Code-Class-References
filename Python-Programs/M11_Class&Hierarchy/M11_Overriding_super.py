@@ -11,8 +11,8 @@ class B(A):
         print("I'm in B")
     
     def show(self):
-        A.show(self)
-        super().show()
+        A.show(self) #Name reference directly
+        super().show() #Positional reference by Hierarchy
         print("Show B")
     
 b = B()

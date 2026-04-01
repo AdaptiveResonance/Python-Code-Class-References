@@ -13,16 +13,21 @@ class animal:
 class dog(animal):
     def __init__(self, name, breed):
         animal.__init__(self, name)
-        self.breed = breed
+        self.breed = breed #local Attribute
     
     def bark(self):
         print("Dog is barking")
         
     def getName(self):
+        print(self.name)
         print(self.__name)
+
+    #def WhatBreed(self):
+        #print(self.breed)   
     
     
 tom = dog("Tom","Labrador")
 tom.getName()
+tom.WhatBreed()
 
 

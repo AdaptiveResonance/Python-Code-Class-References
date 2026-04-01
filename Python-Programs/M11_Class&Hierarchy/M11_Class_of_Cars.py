@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+#Static Class Methods
+
+
 class car:
     __number_of_wheels = 4
     def __init__(self, company_name, model_name, year_of_make,number_of_seats):
@@ -20,7 +23,7 @@ class car:
     def get_number_of_seats(self):
         return self.__number_of_seats
     
-    @staticmethod
+    @staticmethod #allows referencing our static variable at the top
     def get_number_of_wheels():
         return car.__number_of_wheels
     

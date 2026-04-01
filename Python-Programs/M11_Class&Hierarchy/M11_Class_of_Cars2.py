@@ -1,4 +1,6 @@
-"""Original design By: Mostafa Mohamed April 2022"""
+"""Original design By: Mostafa Mohamed April 2022
+Return object attributes as String
+Superseding"""
 class Car:
     """Define my car class"""
 

@@ -28,3 +28,5 @@ tom.bark()
 print(isinstance(tom, dog)) #True
 print(isinstance(tom, animal)) #True
 print(issubclass(dog, animal)) #True
+print(isinstance(tom, animal))
+#print(issubclass(tom, animal))# tom is object not a class
