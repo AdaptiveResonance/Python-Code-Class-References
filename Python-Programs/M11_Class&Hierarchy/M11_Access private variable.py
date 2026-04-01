@@ -8,7 +8,10 @@ class animal:
     
     def run(self):
         print("Animal is running")
-    
+
+    def Retrieve_name(self):
+        return self.__name 
+    #proper way to get parent attribute is to return it to child class
 
 class dog(animal):
     def __init__(self, name, breed):
@@ -19,15 +22,18 @@ class dog(animal):
         print("Dog is barking")
         
     def getName(self):
-        print(self.name)
-        print(self.__name)
+        #print(self.name) Will not work since it is not local
+        #print(self.__name) Cannot access directly since it is private attribute in parent class
 
-    #def WhatBreed(self):
-        #print(self.breed)   
+        print(f"Hidden name: {self._animal__name}") 
+        #roundabout method negates point of private attribute in Parent Class
+
+    def WhatBreed(self):
+        print(self.breed)   
     
     
 tom = dog("Tom","Labrador")
 tom.getName()
 tom.WhatBreed()
-
+print(tom.Retrieve_name())
 
