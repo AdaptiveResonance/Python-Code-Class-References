@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 class car:
     __number_of_wheels = 4
-    def __init__(self, company_name, model_name, year_of_make,number_of_seats):
+    def __init__(self, company_name, model_name, year_of_make, number_of_seats):
         self.__company_name = company_name
         self.__model_name = model_name
         self.__year_of_make = year_of_make
         self.__number_of_seats = number_of_seats
         self.__speed = 0
-        
+
+
     def get_company_name(self):
         return self.__company_name
     

@@ -13,6 +13,7 @@ class animal:
 class dog(animal):
     def __init__(self, name, breed):
         animal.__init__(self, name)
+        self.__name = name       
         self.breed = breed
     
     def bark(self):
@@ -24,5 +25,8 @@ class dog(animal):
     
 tom = dog("Tom","Labrador")
 tom.getName()
+tom.bark()
+Fox = animal("Juniper")
+animal.run()
 
 
