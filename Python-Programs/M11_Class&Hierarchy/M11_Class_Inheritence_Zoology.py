@@ -62,8 +62,8 @@ class Canine(Animal):
 
     def look(self):
         return super().look() + "\n" + self.get_characteristic()
-    # Overrides the Look method to show the parent Look in a line + the Canine characteristic
-
+    # Overrides the Look method to show the parent Look in a line + then the Canine characteristic
+    #when wolf calls look, does get_characteristic geab from local or Wolf?
     def get_characteristic(self):
         return self.__characteristic
 
@@ -75,7 +75,6 @@ class Wolf(Canine):
 
     def get_characteristic(self):
         return super().get_characteristic() + "\n" + self.__characteristic
-
 
 class FlightBird(Bird):
     def __init__(self):

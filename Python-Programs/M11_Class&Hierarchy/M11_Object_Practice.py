@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from typing import final
-
+#person to Employee
+#Final immutable attributes
 
 class Person:
     def __init__(self, name, age, gender, date_of_birth):
@@ -12,11 +13,11 @@ class Person:
     def get_name(self):
         return self.__name
 
-    @final#make inmutable and cannot override in subclass
+    @final #make inmutable and cannot override in subclass
     def get_age(self):
         return self.__age
 
-    @final
+    @final #making immutable with @final and making private with __ makes it highly secure
     def get_date_of_birth(self):
         return self.__date_of_birth
 
@@ -43,9 +44,10 @@ class Employee(Person):
     def get_salary(self):
         return self.__salary
 
-    def get_name(self):
+    def get_name(self):#local method overrides the parents method
         return super().get_name() + ", " + self.get_designation()
-
+#super() here allows getting the parent function instead of self referencing local one
 
 employee = Employee("Tom", 25, "X", "25-June-1996", "BMO", 7000, "developer")
 print(employee.get_name())
+print(employee.__name)
