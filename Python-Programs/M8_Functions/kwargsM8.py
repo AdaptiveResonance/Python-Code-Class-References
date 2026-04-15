@@ -1,9 +1,10 @@
 # **kwargs
+#Key word Arguements
 
 def setupDict(**kwargs):
     print(kwargs)
-    print(*kwargs)
-    result = ""
+    print(*kwargs) #Clean ouput but on keys
+    #result = ""
     result = kwargs
     return result
 

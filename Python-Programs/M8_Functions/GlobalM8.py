@@ -8,10 +8,9 @@ def myFunction():
     innerVar = 3
     print("(inside function) innerVar = ", innerVar)
     localVar = 2
-    ReVar = 4
     print("(inside function) localVar = ", localVar)
     
-    return (ReVar)
+    return (localVar)
     
 globalVar = 2
 backVar=myFunction()

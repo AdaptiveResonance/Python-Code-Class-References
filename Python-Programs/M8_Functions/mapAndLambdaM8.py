@@ -1,7 +1,7 @@
 # lambda function example
 
-cube = lambda x : x **3
-print("2^3 = " + str(cube(2)))
+cubed = lambda x : x **3 #power of 3 to cube
+print("2^3 = " + str(cubed(2)))
 
 # map function example
 

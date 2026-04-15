@@ -11,3 +11,4 @@ def average(*args):
 print("Class Average: ")
 print(average(54,67,89,45,90,75,65,65,73,72,95,56))
 value=average(54,67,89,45,90,75,65,65,73,72,95,56)
+print(value)

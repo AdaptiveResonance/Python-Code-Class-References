@@ -1,6 +1,7 @@
 # random
 
 import random
+#from random import randint, randrange, choice
 
 x = random.random()
 y = random.randint(1,100)
